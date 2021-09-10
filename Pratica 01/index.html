@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="home_243.ico" type="image/x-icon">
+    <title>Cavalcante Imóveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="ai"><hr><h1>CAVALCANTE IMÓVEIS</h1><hr></div>
+    <h2>Inserir Anúncio:</h2>
+
+    <main id="inputs">
+        <h3>Título:</h3>
+        <input type="text" name="titulo" id="titulo">
+        <h3>Descrição:</h3>
+        <input type="text" name="descricao" id="descricao">
+        <h3>Quartos:</h3>
+        <input type="number" name="quartos" id="quartos">
+        <h3>Vagas de Garagem:</h3>
+        <input type="text" name="vagas_garagem" id="vagas_garagem">
+        <h3>Área do Terreno (m):</h3>
+        <input type="number" name="area_terreno" id="area_terreno">
+        <h3>Área Construída (m):</h3>
+        <input type="number" name="area_construida" id="area_construida">
+        <h3>Localidade:</h3>
+        <input type="text" name="localidade" id="localidade">
+        <h3>Preço (R$):</h3>
+        <input type="number" name="preco" id="preco">
+        <h3>Imagem (link):</h3>
+        <input type="text" name="imagem" id="imagem">
+    </main>
+    
+    <div id="botoes">
+        <button id="inserir">Inserir</button>
+        <button id="limpa">Limpar</button>
+    </div>
+
+    <div class="container" id="cont">
+        <hr>
+        <h1>Lista de Imóveis:</h1>
+        <div class="imoveis" id="imoveisConteiner">
+        <hr>
+        </div>
+        <hr>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

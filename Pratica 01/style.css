@@ -1,0 +1,68 @@
+
+body {
+    background-color: rgb(209, 202, 202);
+    font-size: 8pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+main#inputs {
+    background-color: rgb(221, 216, 216);
+    padding: 5px;
+    width: 1000px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+input {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    width: 850px;
+    padding: 4px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+button#limpa {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(235, 137, 137);
+}
+
+button#inserir {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(145, 189, 224);
+}
+
+div#cont {
+    background-color: rgb(228, 220, 220);
+    padding: 5px;
+    width: 1200px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+div#ai {
+    font-size: 10pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(228, 220, 220);
+    width: 1200px;
+    padding: 4px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
