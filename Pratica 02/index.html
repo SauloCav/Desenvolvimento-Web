@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="home_243.ico" type="image/x-icon">
+    <title>Almada Imóveis</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+
+</head>
+<body class="p-3 mb-2 bg-transparent text-dark">
+
+    <div id="ai"><hr><h2>ALMADA IMÓVEIS</h2><hr></div>
+    <h4 class="text-black-50">Inserir Anúncio:</h4>
+
+    <form
+    id="app"
+    @submit="checkForm"
+    action="/something"
+    method="post">
+
+    <p v-if="errors.length" id="avisos">
+        <b>TODOS OS CAMPOS DEVEM SER PREENCHIDOS!</b> <br>
+        <b>VALORES NUMÉRICOS DEVEM SER MAIORES OU IGUAIS A ZERO!</b>
+    </p>
+    
+    <main id="inputs">
+        <h5>Título:</h5>
+        <input type="text" name="titulo" id="titulo" v-model="titulo">
+        <h5>Descrição:</h5>
+        <input type="text" name="descricao" id="descricao" v-model="descricao">
+        <h5>Quartos:</h5>
+        <input type="number" min="0" oninput="validity.valid||(value='')" name="quartos" id="quartos" v-model="quartos">
+        <h5>Vagas de Garagem:</h5>
+        <input type="number" min="0" oninput="validity.valid||(value='')" name="vagas_garagem" id="vagas_garagem" v-model="vagas_garagem">
+        <h5>Área do Terreno (m):</h5>
+        <input type="number" min="0" oninput="validity.valid||(value='')" name="area_terreno" id="area_terreno" v-model="area_terreno">
+        <h5>Área Construída (m):</h5>
+        <input type="number" min="0" oninput="validity.valid||(value='')" name="area_construida" id="area_construida" v-model="area_construida">
+        <h5>Localidade:</h5>
+        <input type="text" name="localidade" id="localidade" v-model="localidade">
+        <h5>Preço (R$):</h5>
+        <input type="number" min="0" oninput="validity.valid||(value='')" name="preco" id="preco" v-model="preco">
+        <h5>Imagem (link):</h5>
+        <input type="text" name="imagem" id="imagem" v-model="imagem">
+    </main>
+    
+        <button id="inserir" @click="checkForm" class="btn btn-outline-dark">Inserir</button>
+        <button id="limpa" @click="resetForm" class="btn btn-outline-dark">Limpar</button>
+        <br>
+        <button id="carrega" @click="carregaForm" class="btn btn-outline-dark">Carregar Lista do LocalStorage</button>
+
+    </form>
+
+    <div class="container" id="cont">
+        <hr>
+        <h2>Lista de Imóveis:</h2>
+        <div class="imoveis" id="imoveisConteiner">
+        <hr>
+        </div>
+        <hr>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
