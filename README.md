@@ -8,4 +8,4 @@ Prática 02 - Continuação da prática 01 utilizando HTML, CSS, Bootstrap, Java
 
 Prática 03 - São recuperados registros da api JasonPlaceHolder. Faz-se uso de HTML, CSS, Bootstrap, JavaScript, Axios e Vue.js.
 
-Prática 04 - Continuação da prática 03 com adições de rotas. Faz-se uso de HTML, CSS, Bootstrap, JavaScript, Axios e Vue.js.
+Prática 04 - Continuação da prática 03 com adições de rotas. Faz-se uso de HTML, CSS, Bootstrap, JavaScript, Axios e Vue.js. (Incompleta)
