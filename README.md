@@ -1,3 +1,5 @@
 # Web-Development
 
-Some activities developed in HTML, CSS, JavaScript and Vue.js
+<strong>Activity 01</strong>
+A simple real estate sales system in HTML, CSS and pure JavaScript
+
