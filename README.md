@@ -1,4 +1,4 @@
-# Web-Development-With-Vue-and-Node
+# Web Development With Vue and Node
 
 <strong>Practice 01:</strong></br>
 A simple real estate sales system in HTML, CSS and pure JavaScript.
@@ -17,3 +17,5 @@ A system for managing a company's employees using Vue and Node.
 
 <strong>Practice 06:</strong></br>
 A simple social network using Vue and Node.
+
+Some practices may be incomplete
